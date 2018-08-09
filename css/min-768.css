@@ -1,0 +1,114 @@
+
+.col-1{
+ 	content: block;
+ 	width: 8.33%;
+ }
+.col-2{
+ 	content: block;
+ 	width: 16.66%;
+ }
+.col-3{
+ 	content: block;
+ 	content: block;
+ 	width: 33.33%;
+ }
+.col-5{
+ 	content: block;
+ 	width: 41.66%;
+ }
+.col-6{
+ 	content: block;
+ 	width: 50%;
+ }
+.col-7{
+ 	content: block;
+ 	width: 58.33%;
+ }
+.col-8{
+ 	content: block;
+ 	width: 66.66%;
+ }
+.col-9{
+ 	content: block;
+ 	width: 75%;
+ }
+.col-10{
+ 	content: block;
+ 	width: 83.33%;
+ }
+.col-11{
+ 	content: block;
+ 	width: 91.66%;
+ }
+.col-12{
+ 	content: block;
+ 	width: 100%;
+ }
+ *{
+ 	font-size: 1.7vw;
+ 	box-sizing: border-box;
+ }
+ [class*="col"]{
+ 	float: left;
+ 	padding: 2%;
+ }
+ .row::after{
+ 	content:"";
+ 	clear: both;
+ 	display: table;
+}
+.capa{
+	height: auto;
+	width: 100%;
+}
+nav ul{
+	list-style-type: none;
+	padding:0px;
+}
+nav ul li a{
+	font-size: 20px;
+	text-decoration: none;
+	color:#fff;
+	display: block;
+	background-color:#333;
+	text-align: center;
+}
+nav ul li a:hover{
+	background-color:#000;
+}
+.seg{
+	border:solid 3px;
+    border-color:#fff;
+    border-radius:20px;
+    padding: 5px;
+}
+ h1{
+ 	float: left;
+ 	width: 93%; 
+ 	font-family: 'Rammetto One', cursive;
+ 	font-size: 30px;
+ 	text-align: center;
+ }
+  p{
+ 	float: left;
+ 	width: 90%;
+  	font-size: 16px;
+ 	text-align: center;
+}
+.img-padrao{
+    border:solid 5px;
+    border-color:#000;
+    border-radius: 1px;
+    width: 200px;
+    height:150px;
+}
+.p{
+	text-align: center;
+}
+.tit{
+	float: left;
+ 	width: 93%; 
+ 	font-family: 'Rammetto One', cursive;
+ 	font-size: 20px;
+ 	text-align: center;
+}
